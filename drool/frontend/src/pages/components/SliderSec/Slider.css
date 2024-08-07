@@ -1,0 +1,71 @@
+/* SliderSection stil güncellemeleri */
+.hero_area {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Tam ekran yüksekliği */
+  }
+  
+  .carousel-indicators li {
+    background-color: #fff; /* Göstergeleri daha belirgin hale getir */
+  }
+  
+  .carousel-item {
+    transition: transform 0.5s ease-in-out; /* Daha yumuşak geçişler */
+  }
+  
+  .detail-box {
+    background: rgba(255, 255, 255, 0.8); /* Detay kutusuna hafif saydamlık */
+    padding: 2rem;
+    border-radius: 10px; /* Yuvarlatılmış köşeler */
+    margin-top: -5rem; /* Kutuyu yukarı çek */
+  }
+  
+  .detail-box .number h5 {
+    font-size: 2rem; /* Numara boyutunu büyüt */
+  }
+  
+  .detail-box h1 {
+    font-weight: bold; /* Başlık fontunu kalınlaştır */
+    color: #333; /* Başlık rengini koyulaştır */
+  }
+  
+  .detail-box p {
+    color: #666; /* Paragraf rengini yumuşat */
+  }
+  
+  .btn-box {
+    display: flex;
+    gap: 1rem; /* Düğmeler arasında boşluk */
+  }
+  
+  .btn-box .btn-1,
+  .btn-box .btn-2 {
+    text-transform: uppercase; /* Düğme metnini büyük harfe çevir */
+    padding: 0.5rem 2rem; /* Düğme dolgusunu artır */
+    border-radius: 5px; /* Düğme köşelerini yuvarlat */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+  }
+  
+  .btn-box .btn-1 {
+    background-color: #007bff; /* Birinci düğme rengi */
+    color: #fff;
+  }
+  
+  .btn-box .btn-2 {
+    background-color: transparent; /* İkinci düğme şeffaf */
+    color: #007bff;
+    border: 2px solid #007bff; /* İkinci düğmeye çerçeve ekle */
+  }
+  
+  .img-box img {
+    width: 100%;
+    height: auto; /* Resmi orantılı hale getir */
+    border-radius: 10px; /* Resim köşelerini yuvarlat */
+  }
+  

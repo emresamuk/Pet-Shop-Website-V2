@@ -1,0 +1,127 @@
+/* Testimonial Container */
+.testimonial-page {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #4a4a4a;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px #26bc8a1e;
+}
+
+/* Testimonial Header */
+.testimonial-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.testimonial-header-text {
+  color: #000;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Testimonial Form */
+.testimonial-form {
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-form input,
+.testimonial-form textarea {
+  width: calc(100% - 40px);
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.testimonial-form textarea {
+  height: 120px;
+}
+
+.testimonial-form button {
+  width: 50%;
+  padding: 10px 0;
+  border: none;
+  background-color: #26bc89;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.testimonial-form button:hover {
+  background-color: rgb(56, 128, 56);
+}
+
+/* Testimonial List */
+.testimonial-list {
+  margin-top: 30px;
+}
+
+/* Testimonial Item */
+.testimonial-item {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 2rem auto;
+  border-radius: 8px;
+  border-left: 5px solid #26bc89;
+  transition: transform 0.3s;
+  max-width: 1100px;
+  box-shadow: 0 12px 24px #26bc8a1e;
+  margin: auto;
+}
+
+.testimonial-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px #26bc8a1e;
+}
+
+.testimonial-message {
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Animasyon */
+.testimonial-item {
+  display: none; /* Başlangıçta öğe görünmez */
+}
+
+.testimonial-item.active {
+  display: block;
+}
+
+.testimonial-item.active {
+  opacity: 1;
+  animation: slideIn 0.5s forwards; /* Animasyon adı, süresi ve doldurma modu */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

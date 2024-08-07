@@ -1,0 +1,66 @@
+.contact-management {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .contact-management h2,
+  .contact-management h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .contact-management input[type='text'],
+  .contact-management input[type='email'],
+  .contact-management textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dfe6e9;
+    border-radius: 5px;
+  }
+  
+  .contact-management button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-management button:hover {
+    background-color: #2980b9;
+  }
+  
+  .contact-management ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-management li {
+    padding: 10px;
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-management li button {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-management li button:hover {
+    background-color: #c0392b;
+  }

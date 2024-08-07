@@ -1,0 +1,111 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: #fff; 
+  }
+  
+  .contact-card,
+  .contact-form-card {
+    background: #ffffff; 
+    padding: 30px;
+    border-radius: 15px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    width: 48%;
+  }
+  
+  .contact-title,
+  .form-title {
+    margin-bottom: 20px;
+    color: #000000; 
+    text-align: left;
+    font-size: 24px; 
+  }
+  
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+  }
+  
+  .contact-icon {
+    font-size: 20px; 
+    margin-right: 12px; 
+    color: #26bc89;
+  }
+  
+  .contact-text {
+    font-size: 16px;
+    color: #555555; 
+  }
+  
+  .map-container iframe {
+    border-radius: 15px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ced4da;
+    border-radius: 8px; 
+    transition: border-color 0.2s;
+    font-size: 16px; 
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #26bc89;
+  }
+  
+  .form-label {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background: white;
+    padding: 0 5px;
+    color: #777777; 
+    font-size: 14px;
+    transition: all 0.3s;
+    transform: translateY(-50%);
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .contact-form input:not(:placeholder-shown) + .form-label,
+  .contact-form textarea:not(:placeholder-shown) + .form-label,
+  .contact-form input:focus + .form-label,
+  .contact-form textarea:focus + .form-label {
+    opacity: 1;
+    transform: translateY(-100%);
+  }
+  
+  .submit-btn {
+    padding: 15px 30px;
+    background-color: #26bc89;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; 
+  }
+  
+  .submit-btn:hover {
+    background-color: #1f966e;
+  }
+  
